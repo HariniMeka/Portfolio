@@ -73,7 +73,7 @@
 
 .tabby-tab [type=radio] { display: none; }
 [type=radio]:checked ~ label {
-  background: rgba(0,0,0,0.85);
+  
   color: #fff;
   z-index: 2;
 }
@@ -88,11 +88,11 @@
 
 /* BREAKPOINTS ----- */
 @media screen and (max-width: 767px) {
-  .tabs { min-height: 770px;}
+  .tabs { min-height: 800px;}
 }
 
 @media screen and (max-width: 480px) {
-  .tabs { min-height: 680px; }
+  .tabs { min-height: 800px; }
   .tabby-tab label { 
     height: 60px;
   }
