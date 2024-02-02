@@ -2,7 +2,7 @@
 
 /************* Typography ******************/
 /******* My style **********/
-
+.circle { border-radius: 10%; }
 
 .animate-charcter
 {
@@ -36,7 +36,7 @@
 .name{
     color: #42c0d9;
     font-family: "Poppins", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 .txt{
@@ -47,6 +47,10 @@
     font-family: "Poppins", sans-serif;
     font-size: 15px;
     font-weight: bold;
+}
+.nor{
+    font-size: 14px;
+    color:#fff;
 }
 .cl{
 	color: #fff !important;
@@ -73,7 +77,12 @@
 
 /*******Tabs for education******/
 * {box-sizing: border-box}
-body {font-family:'FontAwesome';
+body {font-family:'
+	';
+}
+a{color: #42c0d9 !important;}
+a:hover{
+	color: #000 !important;
 }
 
 /* Style the tab */
@@ -197,11 +206,12 @@ h4{
 }
 
 p{
-	font-size:15px;
+	font-size:14px;
 	margin:0 0 15px;
-	color:#777;
+	color:#000;
 	font-weight:300;
 	line-height:24px;
+	font-family: 'FontAwesome', sans-serif;;
 }
 .btn{
 	font-size:16px;
@@ -223,7 +233,7 @@ p{
 .btn.btn-primary{
 	border:1px solid #42c0d9;
 	background:#42c0d9;
-	color:#fff;
+	color:#fff !important;
 }
 .btn.btn-primary:hover{
 	background:none;
@@ -256,7 +266,8 @@ section{
 }
 .inverse{
 	
-	background-image: url(/img/skillbackgroundimage.png);
+	
+	background-image: url(img/skillbackgroundimage.png);
 	background-repeat: no-repeat;
 }
 
