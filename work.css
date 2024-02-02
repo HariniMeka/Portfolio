@@ -88,11 +88,11 @@
 
 /* BREAKPOINTS ----- */
 @media screen and (max-width: 767px) {
-  .tabs { min-height: 800px;}
+  .tabs { min-height: 1000px;}
 }
 
 @media screen and (max-width: 480px) {
-  .tabs { min-height: 800px; }
+  .tabs { min-height: 1000px; }
   .tabby-tab label { 
     height: 60px;
   }
