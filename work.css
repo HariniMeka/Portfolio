@@ -74,7 +74,7 @@
 .tabby-tab [type=radio] { display: none; }
 [type=radio]:checked ~ label {
   
-  color: #fff;
+  color: #000;
   z-index: 2;
 }
 
