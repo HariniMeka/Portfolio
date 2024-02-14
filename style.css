@@ -82,7 +82,7 @@ body {font-family:'
 }
 a{color: #42c0d9 !important;}
 a:hover{
-	color: #fff !important;
+	color: #42c0d9 !important;
 }
 
 /* Style the tab */
@@ -248,7 +248,7 @@ p{
 .btn.btn-default:hover{
 	background:#42c0d9;
 	border-color:#42c0d9;
-	color:#fff;;
+	color:#42c0d9;;
 }
 
 body{
